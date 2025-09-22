@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import './Blog.css';
 
 export default function Blog() {
@@ -57,11 +58,11 @@ export default function Blog() {
           <div className="nav-flex">
             <h1 className="nav-title">Ziyu Liu</h1>
             <div className="nav-links">
-              <a href="/" className="nav-link">Home</a>
-              <a href="/projects" className="nav-link">Projects</a>
-              <a href="/resume" className="nav-link">CV</a>
-              <a href="/blog" className="nav-link active">Blog</a>
-              <a href="/contact" className="nav-link">Contact</a>
+              <Link href="/" className="nav-link">Home</Link>
+              <Link href="/projects" className="nav-link">Projects</Link>
+              <Link href="/resume" className="nav-link">CV</Link>
+              <Link href="/blog" className="nav-link active">Blog</Link>
+              <Link href="/contact" className="nav-link">Contact</Link>
             </div>
           </div>
         </div>
@@ -97,9 +98,9 @@ export default function Blog() {
               <p className="post-excerpt">{post.excerpt}</p>
               
               {post.status === 'published' ? (
-                <a href="#" className="read-more-button">
+                <Link href="#" className="read-more-button">
                   Read More →
-                </a>
+                </Link>
               ) : (
                 <span className="coming-soon-text">
                   {post.status === 'draft' ? 'Coming Soon' : 'Planned'}
@@ -113,7 +114,7 @@ export default function Blog() {
         <div className="coming-soon-section">
           <h3 className="coming-soon-title">Blog Coming Soon!</h3>
           <p className="coming-soon-description">
-            I'm planning to write about my experiences in computer science research, 
+            I&apos;m planning to write about my experiences in computer science research, 
             software development projects, and learning journey. Topics will include:
           </p>
           <div className="topics-grid">

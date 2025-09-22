@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           
           <h2 className="hero-title">
-            Hi, I'm Ziyu (Matthew) Liu
+            Hi, I&apos;m Ziyu (Matthew) Liu
           </h2>
           
           <p className="hero-description">
@@ -78,12 +78,12 @@ export default function Home() {
             <div className="about-container">
               <h3 className="about-title">About Me</h3>
               <p className="about-text">
-                I'm a Computer Science + Mathematics double major at Colgate University with a 4.06 cumulative GPA. 
+                I&apos;m a Computer Science + Mathematics double major at Colgate University with a 4.06 cumulative GPA. 
                 I love building full-stack applications and conducting research in AI/ML and homogenization theory.
               </p>
               <p className="about-text">
                 Currently working on policy annotation research with LLMs and maintaining the Colgate Event Calendar platform.
-                When I'm not coding, I enjoy tutoring students and leading orientation programs for international students.
+                When I&apos;m not coding, I enjoy tutoring students and leading orientation programs for international students.
               </p>
             </div>
           </div>
