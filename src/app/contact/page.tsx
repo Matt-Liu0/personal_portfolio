@@ -272,7 +272,7 @@ export default function Contact() {
                     <p className="note-title">Note about this form:</p>
                     <p className="note-text">
                       This contact form is for display purposes. For the fastest response, please reach out directly via 
-                      email at <a href="mailto:zliu1@colgate.edu">zliu1@colgate.edu</a> 
+                      email at <Link href="mailto:zliu1@colgate.edu">zliu1@colgate.edu</Link> 
                       or connect with me on LinkedIn!
                     </p>
                   </div>

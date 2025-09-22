@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link'
 import React from 'react';
 
 export default function Home() {
@@ -29,11 +30,11 @@ export default function Home() {
           <div className="nav-flex">
             <h1 className="nav-title">Ziyu Liu</h1>
             <div className="nav-links">
-              <a href="/" className="nav-link active">Home</a>
-              <a href="/projects" className="nav-link">Projects</a>
-              <a href="/resume" className="nav-link">CV</a>
-              <a href="/blog" className="nav-link">Blog</a>
-              <a href="/contact" className="nav-link">Contact</a>
+              <Link href="/" className="nav-link">Home</Link>
+              <Link href="/projects" className="nav-link">Projects</Link>
+              <Link href="/resume" className="nav-link">CV</Link>
+              <Link href="/blog" className="nav-link active">Blog</Link>
+              <Link href="/contact" className="nav-link">Contact</Link>
             </div>
           </div>
         </div>
@@ -63,12 +64,12 @@ export default function Home() {
           </p>
 
           <div className="hero-buttons">
-            <a href="/projects" className="btn-primary">
+            <Link href="/projects" className="btn-primary">
               View My Projects
-            </a>
-            <a href="/contact" className="btn-secondary">
+            </Link>
+            <Link href="/contact" className="btn-secondary">
               Get In Touch
-            </a>
+            </Link>
           </div>
         </div>
 

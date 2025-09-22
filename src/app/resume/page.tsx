@@ -599,7 +599,7 @@ export default function Resume() {
                 Let&apos;s connect and explore how I can contribute to your team!
               </p>
               <div className="flex justify-center space-x-4">
-                <a 
+                <Link 
                   href="/contact" 
                   className="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition flex items-center"
                 >
@@ -607,8 +607,8 @@ export default function Resume() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   Contact Me
-                </a>
-                <a 
+                </Link>
+                <Link 
                   href="/projects" 
                   className="border border-blue-300 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition flex items-center"
                 >
@@ -616,7 +616,7 @@ export default function Resume() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                   </svg>
                   View Projects
-                </a>
+                </Link>
               </div>
             </section>
           </div>
