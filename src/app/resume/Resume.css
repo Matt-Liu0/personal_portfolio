@@ -1,0 +1,1059 @@
+/* Resume.css */
+
+.resume-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Navigation */
+.nav {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-content {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #4b5563;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #111827;
+}
+
+.nav-link.active {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn svg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  border: 1px solid #d1d5db;
+  color: #374151;
+  background-color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #f9fafb;
+}
+
+/* Resume Card */
+.resume-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Resume Header */
+.resume-header {
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.resume-name {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.resume-title {
+  color: #bfdbfe;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #bfdbfe;
+  margin-bottom: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item svg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-link {
+  color: #bfdbfe;
+  transition: color 0.2s;
+}
+
+.social-link:hover {
+  color: white;
+}
+
+.social-link svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Resume Content */
+.resume-content {
+  padding: 2rem;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+}
+
+.section-icon svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.section-icon.summary {
+  background-color: #dbeafe;
+}
+
+.section-icon.summary svg {
+  color: #2563eb;
+}
+
+.section-icon.education {
+  background-color: #dcfce7;
+}
+
+.section-icon.education svg {
+  color: #16a34a;
+}
+
+.section-icon.skills {
+  background-color: #f3e8ff;
+}
+
+.section-icon.skills svg {
+  color: #9333ea;
+}
+
+.section-icon.research {
+  background-color: #eef2ff;
+}
+
+.section-icon.research svg {
+  color: #4f46e5;
+}
+
+.section-icon.work {
+  background-color: #fed7aa;
+}
+
+.section-icon.work svg {
+  color: #ea580c;
+}
+
+.section-icon.leadership {
+  background-color: #fecaca;
+}
+
+.section-icon.leadership svg {
+  color: #dc2626;
+}
+
+.section-icon.projects {
+  background-color: #ccfbf1;
+}
+
+.section-icon.projects svg {
+  color: #0d9488;
+}
+
+.section-icon.awards {
+  background-color: #fef3c7;
+}
+
+.section-icon.awards svg {
+  color: #d97706;
+}
+
+.section-icon.additional {
+  background-color: #f3f4f6;
+}
+
+.section-icon.additional svg {
+  color: #4b5563;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* Summary Section */
+.summary-content {
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.summary-text {
+  color: #374151;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Education Section */
+.education-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.university-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.degree {
+  font-size: 1.125rem;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.location {
+  color: #4b5563;
+}
+
+.graduation-info {
+  text-align: right;
+}
+
+.graduation-date {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.graduation-note {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.gpa-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .gpa-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gpa-card {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.gpa-card.cs {
+  background-color: #eff6ff;
+}
+
+.gpa-card.math {
+  background-color: #f0fdf4;
+}
+
+.gpa-card.cumulative {
+  background-color: #faf5ff;
+}
+
+.gpa-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.gpa-value.cs {
+  color: #2563eb;
+}
+
+.gpa-value.math {
+  color: #16a34a;
+}
+
+.gpa-value.cumulative {
+  color: #9333ea;
+}
+
+.gpa-label {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.coursework-title {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.coursework-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.coursework-tag {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.skills-category {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.skills-category-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.skills-category-title svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.skills-category-title.programming svg {
+  color: #2563eb;
+}
+
+.skills-category-title.frameworks svg {
+  color: #16a34a;
+}
+
+.skill-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.skill-item {
+  margin-bottom: 0.75rem;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.skill-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.skill-level {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  height: 0.5rem;
+}
+
+.skill-progress {
+  height: 0.5rem;
+  border-radius: 9999px;
+}
+
+.skill-progress.js {
+  background-color: #2563eb;
+}
+
+.skill-progress.python {
+  background-color: #16a34a;
+}
+
+.skill-progress.java {
+  background-color: #ea580c;
+}
+
+.skill-progress.cpp {
+  background-color: #9333ea;
+}
+
+.other-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.other-skill {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.framework-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.framework-item {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid;
+}
+
+.framework-item.react {
+  background-color: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.framework-item.nextjs {
+  background-color: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.framework-item.vue {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.framework-item.django {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.framework-item.postgresql {
+  background-color: #faf5ff;
+  border-color: #e9d5ff;
+}
+
+.framework-item.firebase {
+  background-color: #faf5ff;
+  border-color: #e9d5ff;
+}
+
+.framework-item.tableau {
+  background-color: #fff7ed;
+  border-color: #fed7aa;
+}
+
+.framework-item.prisma {
+  background-color: #fff7ed;
+  border-color: #fed7aa;
+}
+
+.framework-name {
+  font-weight: 500;
+}
+
+.framework-name.react {
+  color: #1e40af;
+}
+
+.framework-name.nextjs {
+  color: #1e40af;
+}
+
+.framework-name.vue {
+  color: #166534;
+}
+
+.framework-name.django {
+  color: #166534;
+}
+
+.framework-name.postgresql {
+  color: #7c3aed;
+}
+
+.framework-name.firebase {
+  color: #7c3aed;
+}
+
+.framework-name.tableau {
+  color: #c2410c;
+}
+
+.framework-name.prisma {
+  color: #c2410c;
+}
+
+.framework-type {
+  font-size: 0.75rem;
+}
+
+.framework-type.react {
+  color: #2563eb;
+}
+
+.framework-type.nextjs {
+  color: #2563eb;
+}
+
+.framework-type.vue {
+  color: #16a34a;
+}
+
+.framework-type.django {
+  color: #16a34a;
+}
+
+.framework-type.postgresql {
+  color: #9333ea;
+}
+
+.framework-type.firebase {
+  color: #9333ea;
+}
+
+.framework-type.tableau {
+  color: #ea580c;
+}
+
+.framework-type.prisma {
+  color: #ea580c;
+}
+
+/* Experience Cards */
+.experience-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.experience-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.experience-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.experience-organization {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.experience-date {
+  color: #4b5563;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-current {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-completed {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.status-internship {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.status-academic {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.status-leadership {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+.status-live {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-development {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.experience-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  color: #374151;
+}
+
+.highlight-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.highlight-bullet.research {
+  background-color: #60a5fa;
+}
+
+.highlight-bullet.work {
+  background-color: #fb923c;
+}
+
+.highlight-bullet.leadership {
+  background-color: #f87171;
+}
+
+.highlight-bullet.projects {
+  background-color: #2dd4bf;
+}
+
+.project-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.tech-tag.blue {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.tech-tag.green {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+/* Achievements Section */
+.achievements-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.achievement-card {
+  background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+  border: 1px solid #fbbf24;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.achievement-card.academic {
+  background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+  border-color: #fbbf24;
+}
+
+.achievement-card.impact {
+  background: linear-gradient(135deg, #eff6ff 0%, #eef2ff 100%);
+  border-color: #3b82f6;
+}
+
+.achievement-title {
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.achievement-item {
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+/* Additional Information */
+.additional-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .additional-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.additional-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.additional-title {
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  color: #4b5563;
+}
+
+.language-level {
+  font-size: 0.875rem;
+}
+
+.interest-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.interest-item {
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+.availability-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.availability-item {
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+/* Footer CTA */
+.footer-cta {
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cta-description {
+  color: #bfdbfe;
+  margin-bottom: 1.5rem;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.cta-button svg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.cta-button.primary {
+  background-color: white;
+  color: #2563eb;
+}
+
+.cta-button.primary:hover {
+  background-color: #f9fafb;
+}
+
+.cta-button.secondary {
+  border: 1px solid #bfdbfe;
+  color: white;
+}
+
+.cta-button.secondary:hover {
+  background-color: #1d4ed8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .graduation-info {
+    text-align: left;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .framework-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .header-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-button {
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+  }
+}
