@@ -144,9 +144,9 @@ export default function Blog() {
             </div>
           </div>
           <div>
-            <a href="/contact" className="cta-button">
+            <Link href="/contact" className="cta-button">
               Get Notified When I Publish
-            </a>
+            </Link>
           </div>
         </div>
 
