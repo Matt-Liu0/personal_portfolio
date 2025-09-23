@@ -1,9 +1,12 @@
 'use client'
 import React from 'react';
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 import './Contact.css';
 
 export default function Contact() {
+  const pathname = usePathname();
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert('Thank you for your message! Since this is a demo form, please reach out directly via email at zliu1@colgate.edu for the fastest response.');
@@ -17,11 +20,21 @@ export default function Contact() {
           <div className="nav-flex">
             <h1 className="nav-title">Ziyu Liu</h1>
             <div className="nav-links">
-              <Link href="/" className="nav-link">Home</Link>
-              <Link href="/projects" className="nav-link">Projects</Link>
-              <Link href="/resume" className="nav-link">CV</Link>
-              <Link href="/blog" className="nav-link active">Blog</Link>
-              <Link href="/contact" className="nav-link">Contact</Link>
+               <Link href="/" className={pathname === "/" ? "nav-link active" : "nav-link"}>
+              Home
+            </Link>
+            <Link href="/projects" className={pathname === "/projects" ? "nav-link active" : "nav-link"}>
+              Projects
+            </Link>
+            <Link href="/resume" className={pathname === "/resume" ? "nav-link active" : "nav-link"}>
+              CV
+            </Link>
+            <Link href="/blog" className={pathname === "/blog" ? "nav-link active" : "nav-link"}>
+              Blog
+            </Link>
+            <Link href="/contact" className={pathname === "/contact" ? "nav-link active" : "nav-link"}>
+              Contact
+            </Link>
             </div>
           </div>
         </div>

@@ -185,6 +185,7 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-top: 1rem;
 }
 
 .social-link {
@@ -214,7 +215,7 @@
 .section-header {
   display: flex;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .section-icon {
@@ -338,19 +339,19 @@
   margin-bottom: 1rem;
 }
 
-.university-name {
+.university-info h3 {
   font-size: 1.25rem;
   font-weight: bold;
   color: #111827;
 }
 
-.degree {
+.university-info .degree {
   font-size: 1.125rem;
   color: #2563eb;
   font-weight: 500;
 }
 
-.location {
+.university-info .location {
   color: #4b5563;
 }
 
@@ -358,13 +359,13 @@
   text-align: right;
 }
 
-.graduation-date {
+.graduation-info .date {
   font-size: 1.125rem;
   font-weight: 600;
   color: #111827;
 }
 
-.graduation-note {
+.graduation-info .note {
   font-size: 0.875rem;
   color: #4b5563;
 }
@@ -839,10 +840,9 @@
 }
 
 .achievement-card {
-  background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
-  border: 1px solid #fbbf24;
   border-radius: 0.5rem;
   padding: 1.5rem;
+  border: 1px solid;
 }
 
 .achievement-card.academic {

@@ -1,8 +1,12 @@
+'use client'
 import React from 'react';
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 import './Projects.css';
 
 export default function Projects() {
+  const pathname = usePathname();
+
   const projects = [
     {
       title: "Colgate Event Calendar",
@@ -64,11 +68,21 @@ export default function Projects() {
           <div className="nav-flex">
             <h1 className="nav-title">Ziyu Liu</h1>
             <div className="nav-links">
-              <Link href="/" className="nav-link">Home</Link>
-              <Link href="/projects" className="nav-link">Projects</Link>
-              <Link href="/resume" className="nav-link">CV</Link>
-              <Link href="/blog" className="nav-link active">Blog</Link>
-              <Link href="/contact" className="nav-link">Contact</Link>
+              <Link href="/" className={pathname === "/" ? "nav-link active" : "nav-link"}>
+              Home
+            </Link>
+            <Link href="/projects" className={pathname === "/projects" ? "nav-link active" : "nav-link"}>
+              Projects
+            </Link>
+            <Link href="/resume" className={pathname === "/resume" ? "nav-link active" : "nav-link"}>
+              CV
+            </Link>
+            <Link href="/blog" className={pathname === "/blog" ? "nav-link active" : "nav-link"}>
+              Blog
+            </Link>
+            <Link href="/contact" className={pathname === "/contact" ? "nav-link active" : "nav-link"}>
+              Contact
+            </Link>
             </div>
           </div>
         </div>

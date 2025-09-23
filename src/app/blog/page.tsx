@@ -1,8 +1,12 @@
+'use client'
 import React from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import './Blog.css';
 
 export default function Blog() {
+  const pathname = usePathname();
+  
   // Placeholder blog posts - you can replace these with real posts later
   const blogPosts = [
     {
@@ -58,11 +62,21 @@ export default function Blog() {
           <div className="nav-flex">
             <h1 className="nav-title">Ziyu Liu</h1>
             <div className="nav-links">
-              <Link href="/" className="nav-link">Home</Link>
-              <Link href="/projects" className="nav-link">Projects</Link>
-              <Link href="/resume" className="nav-link">CV</Link>
-              <Link href="/blog" className="nav-link active">Blog</Link>
-              <Link href="/contact" className="nav-link">Contact</Link>
+              <Link href="/" className={pathname === "/" ? "nav-link active" : "nav-link"}>
+                Home
+              </Link>
+              <Link href="/projects" className={pathname === "/projects" ? "nav-link active" : "nav-link"}>
+                Projects
+              </Link>
+              <Link href="/resume" className={pathname === "/resume" ? "nav-link active" : "nav-link"}>
+                CV
+              </Link>
+              <Link href="/blog" className={pathname === "/blog" ? "nav-link active" : "nav-link"}>
+                Blog
+              </Link>
+              <Link href="/contact" className={pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                Contact
+              </Link>
             </div>
           </div>
         </div>
@@ -114,7 +128,7 @@ export default function Blog() {
         <div className="coming-soon-section">
           <h3 className="coming-soon-title">Blog Coming Soon!</h3>
           <p className="coming-soon-description">
-            I&apos;m planning to write about my experiences in computer science research, 
+            I'm planning to write about my experiences in computer science research, 
             software development projects, and learning journey. Topics will include:
           </p>
           <div className="topics-grid">
