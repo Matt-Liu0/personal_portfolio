@@ -577,7 +577,7 @@
   border-color: #bfdbfe;
 }
 
-.framework-item.vue {
+.framework-item.nestjs {
   background-color: #f0fdf4;
   border-color: #bbf7d0;
 }
@@ -592,17 +592,17 @@
   border-color: #e9d5ff;
 }
 
-.framework-item.firebase {
+.framework-item.supabase {
   background-color: #faf5ff;
   border-color: #e9d5ff;
 }
 
-.framework-item.tableau {
+.framework-item.pytorch {
   background-color: #fff7ed;
   border-color: #fed7aa;
 }
 
-.framework-item.prisma {
+.framework-item.langchain {
   background-color: #fff7ed;
   border-color: #fed7aa;
 }
@@ -619,7 +619,7 @@
   color: #1e40af;
 }
 
-.framework-name.vue {
+.framework-name.nestjs {
   color: #166534;
 }
 
@@ -631,15 +631,15 @@
   color: #7c3aed;
 }
 
-.framework-name.firebase {
+.framework-name.supabase {
   color: #7c3aed;
 }
 
-.framework-name.tableau {
+.framework-name.pytorch {
   color: #c2410c;
 }
 
-.framework-name.prisma {
+.framework-name.langchain {
   color: #c2410c;
 }
 
@@ -655,7 +655,7 @@
   color: #2563eb;
 }
 
-.framework-type.vue {
+.framework-type.nestjs {
   color: #16a34a;
 }
 
@@ -667,15 +667,15 @@
   color: #9333ea;
 }
 
-.framework-type.firebase {
+.framework-type.supabase {
   color: #9333ea;
 }
 
-.framework-type.tableau {
+.framework-type.pytorch {
   color: #ea580c;
 }
 
-.framework-type.prisma {
+.framework-type.langchain {
   color: #ea580c;
 }
 

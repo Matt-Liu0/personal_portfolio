@@ -7,18 +7,23 @@ import React from 'react';
 export default function Home() {
   const pathname = usePathname();
   const skills = [
-    { name: 'JavaScript', type: 'language' },
     { name: 'Python', type: 'language' },
     { name: 'Java', type: 'language' },
+    { name: 'JavaScript', type: 'language' },
     { name: 'C/C++', type: 'language' },
+    { name: 'SQL', type: 'language' },
     { name: 'React', type: 'framework' },
     { name: 'Next.js', type: 'framework' },
-    { name: 'Vue', type: 'framework' },
+    { name: 'Node.js', type: 'framework' },
+    { name: 'NestJS', type: 'framework' },
     { name: 'Django', type: 'framework' },
+    { name: 'Vue', type: 'framework' },
+    { name: 'PyTorch', type: 'framework' },
+    { name: 'LangChain', type: 'framework' },
     { name: 'PostgreSQL', type: 'database' },
-    { name: 'Firebase', type: 'database' },
     { name: 'Supabase', type: 'database' },
-    { name: 'MATLAB', type: 'tool' }
+    { name: 'AWS', type: 'tool' },
+    { name: 'Git/GitHub', type: 'tool' }
   ];
 
   const getSkillClass = (type: string) => {
@@ -92,12 +97,13 @@ export default function Home() {
             <div className="about-container">
               <h3 className="about-title">About Me</h3>
               <p className="about-text">
-                I&apos;m a Computer Science + Mathematics double major at Colgate University with a 4.06 cumulative GPA. 
-                I love building full-stack applications and conducting research in AI/ML and homogenization theory.
+                I&apos;m a Computer Science + Mathematics double major at Colgate University (graduating May 2027) with a 4.04 cumulative GPA.
+                I love building full-stack applications and conducting research in AI/ML.
               </p>
               <p className="about-text">
-                Currently working on policy annotation research with LLMs and maintaining the Colgate Event Calendar platform.
-                When I&apos;m not coding, I enjoy tutoring students and leading orientation programs for international students.
+                Most recently, I was a Software Engineering Intern at Zocdoc, where I built a guided search workflow that increased booking conversion by 10%.
+                I also research LLM-based privacy policy annotation and maintain the Colgate Event Calendar platform.
+                When I&apos;m not coding, I&apos;m a CS Teaching Assistant and a Writing Center Consultant.
               </p>
             </div>
           </div>

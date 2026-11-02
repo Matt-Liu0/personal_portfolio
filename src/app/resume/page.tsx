@@ -48,7 +48,7 @@ export default function Resume() {
       <main className="main-content">
         <div className="header-section">
           <h2 className="page-title">CV</h2>
-          <p className="page-subtitle">Computer Science + Mathematics Double Major | 4.06 GPA | Colgate University</p>
+          <p className="page-subtitle">Computer Science + Mathematics Double Major | 4.04 GPA | Colgate University</p>
           <div className="header-buttons">
             <button 
               onClick={handleDownloadPDF}
@@ -130,11 +130,11 @@ export default function Resume() {
               </div>
               <div className="summary-content">
                 <p className="summary-text">
-                  Highly motivated Computer Science and Mathematics double major with a 4.06 GPA, combining strong 
-                  theoretical foundations with practical software development experience. Proven track record in 
-                  full-stack development, research in AI/ML and mathematical modeling, and leadership in academic 
-                  and professional settings. Seeking opportunities to apply technical skills and research experience 
-                  in innovative software engineering or research roles.
+                  Computer Science and Mathematics double major with a 4.04 GPA and Dean&apos;s Award with Distinction, 
+                  combining strong theoretical foundations with industry software engineering experience. Shipped 
+                  production features at Zocdoc, built full-stack platforms with 
+                  Next.js and NestJS, and conducted LLM research on privacy policy annotation. Seeking software 
+                  engineering roles after graduating in May 2027.
                 </p>
               </div>
             </section>
@@ -172,7 +172,7 @@ export default function Resume() {
                     <p className="gpa-label">Mathematics GPA</p>
                   </div>
                   <div className="gpa-card cumulative">
-                    <p className="gpa-value cumulative">4.06</p>
+                    <p className="gpa-value cumulative">4.04</p>
                     <p className="gpa-label">Cumulative GPA</p>
                   </div>
                 </div>
@@ -181,10 +181,11 @@ export default function Resume() {
                   <h4 className="coursework-title">Relevant Coursework:</h4>
                   <div className="coursework-tags">
                     <span className="coursework-tag">Data Structures & Algorithms</span>
+                    <span className="coursework-tag">Software Analysis and Testing</span>
+                    <span className="coursework-tag">Applied Machine Learning</span>
+                    <span className="coursework-tag">Graph Theory</span>
                     <span className="coursework-tag">Linear Algebra</span>
                     <span className="coursework-tag">Discrete Structures</span>
-                    <span className="coursework-tag">Differential Equations</span>
-                    <span className="coursework-tag">Combinatorics</span>
                   </div>
                 </div>
               </div>
@@ -247,9 +248,9 @@ export default function Resume() {
                       </div>
                     </div>
                     <div className="other-skills">
+                      <span className="other-skill">SQL</span>
                       <span className="other-skill">HTML/CSS</span>
                       <span className="other-skill">MATLAB</span>
-                      <span className="other-skill">SQL</span>
                     </div>
                   </div>
                 </div>
@@ -270,9 +271,9 @@ export default function Resume() {
                       <div className="framework-name nextjs">Next.js</div>
                       <div className="framework-type nextjs">Full-stack</div>
                     </div>
-                    <div className="framework-item vue">
-                      <div className="framework-name vue">Vue.js</div>
-                      <div className="framework-type vue">Frontend</div>
+                    <div className="framework-item nestjs">
+                      <div className="framework-name nestjs">NestJS</div>
+                      <div className="framework-type nestjs">Backend</div>
                     </div>
                     <div className="framework-item django">
                       <div className="framework-name django">Django</div>
@@ -282,17 +283,17 @@ export default function Resume() {
                       <div className="framework-name postgresql">PostgreSQL</div>
                       <div className="framework-type postgresql">Database</div>
                     </div>
-                    <div className="framework-item firebase">
-                      <div className="framework-name firebase">Firebase</div>
-                      <div className="framework-type firebase">BaaS</div>
+                    <div className="framework-item supabase">
+                      <div className="framework-name supabase">Supabase</div>
+                      <div className="framework-type supabase">BaaS</div>
                     </div>
-                    <div className="framework-item tableau">
-                      <div className="framework-name tableau">Tableau</div>
-                      <div className="framework-type tableau">Analytics</div>
+                    <div className="framework-item pytorch">
+                      <div className="framework-name pytorch">PyTorch</div>
+                      <div className="framework-type pytorch">AI/ML</div>
                     </div>
-                    <div className="framework-item prisma">
-                      <div className="framework-name prisma">Prisma</div>
-                      <div className="framework-type prisma">ORM</div>
+                    <div className="framework-item langchain">
+                      <div className="framework-name langchain">LangChain</div>
+                      <div className="framework-type langchain">LLM</div>
                     </div>
                   </div>
                 </div>
@@ -317,17 +318,25 @@ export default function Resume() {
                       <h3 className="experience-title">Research Assistant – GKC-CI Policy Annotation</h3>
                       <p className="experience-organization">Computer Science | Colgate University & University of Iowa</p>
                     </div>
-                    <span className="status-badge status-current">Current</span>
+                    <span className="status-badge status-completed">Completed</span>
                   </div>
-                  <p className="experience-date">Sept 2025 – Present</p>
+                  <p className="experience-date">Sept 2025 – May 2026</p>
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
-                      Coordinate cross-institution GKCCI privacy policy labeling project, aligning guidelines with Iowa law students and designing a statistical comparison system to streamline iterative data labeling and improve dataset reliability
+                      Built LLM-based models with fine-tuning and prompt engineering to analyze privacy policy parameters, converting expert annotations into reproducible and scalable pipelines for policy evaluation
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
-                      Advance analysis of policy parameters by developing and fine-tuning LLM-based models to investigate relationships between parameters, transforming expert annotations into scalable, reproducible workflows
+                      Designed a statistical comparison system in Python to streamline iterative labeling, increasing dataset reliability by 25% across a multi-institution collaboration
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet research"></span>
+                      Experimented with LangChain-based prompt chaining to enhance reproducibility and traceability in annotation workflows
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet research"></span>
+                      Integrated ML-driven classification workflows for policy texts, accelerating annotation throughput and creating a reusable foundation for AI-driven privacy research
                     </li>
                   </ul>
                 </div>
@@ -370,6 +379,56 @@ export default function Resume() {
                 <div className="experience-card">
                   <div className="experience-header">
                     <div>
+                      <h3 className="experience-title">Software Engineering Intern</h3>
+                      <p className="experience-organization">Zocdoc | New York, NY</p>
+                    </div>
+                    <span className="status-badge status-internship">Internship</span>
+                  </div>
+                  <p className="experience-date">Jun 2026 – Aug 2026</p>
+                  <ul className="experience-highlights">
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Identified UX gaps in provider-branded directory search and proposed a self-owned guided search initiative as the technical foundation for upcoming per-practice scheduling rules
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Designed and delivered an end-to-end guided search workflow (React, TypeScript) for Zocdoc&apos;s provider-branded directory, increasing booking conversion by 10% and laying the groundwork for practice-level scheduling rule integration
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Built GraphQL/C# backend endpoints for search filtering categories, improving extensibility for scheduling-rule logic
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Facilitated daily scrum standups for the 12-person engineering team, driving group alignment, surfacing blockers, and coordinating priorities to keep the team&apos;s overall productivity on track
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Led a hackathon team proposing a student-focused Zocdoc extension to expand into the college market; built a partial prototype of the scheduling flow
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="experience-card">
+                  <div className="experience-header">
+                    <div>
+                      <h3 className="experience-title">Teaching Assistant</h3>
+                      <p className="experience-organization">Computer Science Department | Colgate University</p>
+                    </div>
+                    <span className="status-badge status-current">Current</span>
+                  </div>
+                  <p className="experience-date">Sept 2024 – Present</p>
+                  <ul className="experience-highlights">
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Mentored and supported 40+ students in introductory CS courses by leading labs, debugging Python/Java/C assignments, and fostering collaborative problem-solving skills
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="experience-card">
+                  <div className="experience-header">
+                    <div>
                       <h3 className="experience-title">Writing Center Consultant</h3>
                       <p className="experience-organization">Writing and Speaking Center | Colgate University</p>
                     </div>
@@ -379,7 +438,7 @@ export default function Resume() {
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Engage with 50+ students per semester from various academic years, majors, and language backgrounds on their writing pieces, providing support in successive writing phases to help them build confidence in completing college-level writing
+                      Engage with 60+ students per year from various years, majors, and language backgrounds on their writing pieces, providing support across drafting, revising, and refining stages to build confidence in college-level writing
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
@@ -392,7 +451,7 @@ export default function Resume() {
                   <div className="experience-header">
                     <div>
                       <h3 className="experience-title">Software Development Engineer Intern</h3>
-                      <p className="experience-organization">Shanghai Qingning Recycling Design Company</p>
+                      <p className="experience-organization">Shanghai Qingning Recycling Design Company | Shanghai, China</p>
                     </div>
                     <span className="status-badge status-internship">Internship</span>
                   </div>
@@ -400,15 +459,19 @@ export default function Resume() {
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Developed and enhanced an intelligent digital pollution statistics surveillance system, utilizing frontend frameworks and Spring Boot with SQL for backend database management, improving recycling data collection efficiency by 30%
+                      Developed a pollution surveillance system with React (Vite), Spring Boot, and SQL by engineering full-stack features for live recycling data capture, improving collection efficiency by 30% and enabling near real-time reporting
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Researched the integration of blockchain technology into the backend data management system to strengthen data security
+                      Redesigned SQL queries and optimized backend data pipelines, reducing reporting lag from days to hours and streamlining environmental compliance checks
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Improved data visualization for pollution metrics from aerial detection stations by implementing dynamic graphs and synchronizing monthly reports with the website, ensuring real-time updates
+                      Built a dynamic visualization dashboard with interactive charts, providing environmental teams with real-time monitoring tools and improving monthly reporting accuracy
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet work"></span>
+                      Collaborated with field operators to understand workflow challenges and translated their needs into clearer data structures
                     </li>
                   </ul>
                 </div>
@@ -485,11 +548,15 @@ export default function Resume() {
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
-                      Built, deployed, and continue to maintain a full-stack event discovery platform using Next.js, NestJS, and PostgreSQL, enhancing campus event visibility and student engagement
+                      Built a full-stack campus event discovery platform with Next.js, NestJS, PostgreSQL, and Supabase, integrating Google Calendar APIs to centralize 200+ events per semester
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
-                      Integrated Supabase for user login and live event management with role-based access
+                      Implemented role-based authentication with Supabase to enable secure real-time event management, reducing posting errors by 40%
+                    </li>
+                    <li className="highlight-item">
+                      <span className="highlight-bullet projects"></span>
+                      Integrated an AI chatbot into the platform using OpenAI&apos;s API that enables students to ask natural-language questions about upcoming events, reducing average time-to-event-discovery by 35%
                     </li>
                   </ul>
                   <div className="project-tech-tags">
@@ -497,6 +564,7 @@ export default function Resume() {
                     <span className="tech-tag blue">NestJS</span>
                     <span className="tech-tag blue">PostgreSQL</span>
                     <span className="tech-tag blue">Supabase</span>
+                    <span className="tech-tag blue">OpenAI API</span>
                   </div>
                 </div>
 
@@ -571,9 +639,9 @@ export default function Resume() {
                 <div className="additional-card">
                   <h3 className="additional-title">Availability</h3>
                   <ul className="availability-list">
-                    <li className="availability-item">• Summer 2026 Internships</li>
-                    <li className="availability-item">• Part-time during academic year</li>
-                    <li className="availability-item">• Remote/Hybrid work</li>
+                    <li className="availability-item">• Full-time roles starting 2027</li>
+                    <li className="availability-item">• Graduating May 2027</li>
+                    <li className="availability-item">• On-site, Hybrid, or Remote</li>
                   </ul>
                 </div>
               </div>
@@ -583,8 +651,8 @@ export default function Resume() {
             <section className="footer-cta">
               <h3 className="cta-title">Ready to Work Together?</h3>
               <p className="cta-description">
-                I'm actively seeking internship opportunities and research collaborations. 
-                Let's connect and explore how I can contribute to your team!
+                I&apos;m actively seeking full-time software engineering opportunities starting in 2027. 
+                Let&apos;s connect and explore how I can contribute to your team!
               </p>
               <div className="cta-buttons">
                 <Link 

@@ -11,16 +11,31 @@ export default function Projects() {
     {
       title: "Colgate Event Calendar",
       period: "Feb 2024 – Present",
-      description: "A full-stack event discovery platform enhancing campus event visibility and student engagement.",
-      technologies: ["Next.js", "NestJS", "PostgreSQL", "Supabase"],
+      description: "A full-stack campus event discovery platform that centralizes 200+ events per semester and improves visibility for students.",
+      technologies: ["Next.js", "NestJS", "PostgreSQL", "Supabase", "Google Calendar API", "OpenAI API"],
       highlights: [
-        "Built and deployed complete event management system",
-        "Integrated user authentication with role-based access",
-        "Live event management with real-time updates"
+        "Integrated Google Calendar APIs to centralize 200+ events per semester",
+        "Role-based authentication with Supabase, reducing posting errors by 40%",
+        "AI chatbot for natural-language event questions, cutting time-to-event-discovery by 35%"
       ],
       status: "Live & Maintained",
-      github: "#",
+      github: "https://github.com/Matt-Liu0/colgate-event-calendar",
       demo: "#"
+    },
+    {
+      title: "GKC-CI Policy Annotation (Research)",
+      period: "Sept 2025 – May 2026",
+      description: "LLM-based pipelines for analyzing privacy policy parameters, in collaboration between Colgate University and the University of Iowa.",
+      technologies: ["Python", "LLM Fine-tuning", "LangChain", "Scikit-learn"],
+      highlights: [
+        "Converted expert annotations into reproducible, scalable LLM evaluation pipelines",
+        "Statistical comparison system that increased dataset reliability by 25%",
+        "LangChain prompt chaining for traceable annotation workflows",
+        "ML-driven classification workflows for policy texts"
+      ],
+      status: "Completed (Research)",
+      github: "#",
+      company: "Colgate University & University of Iowa"
     },
     {
       title: "CryptoEd",
@@ -40,13 +55,13 @@ export default function Projects() {
     {
       title: "Intelligent Pollution Statistics System",
       period: "Jun 2024 – Aug 2024",
-      description: "Digital surveillance system for pollution statistics with improved data collection efficiency.",
-      technologies: ["Frontend Framework", "Spring Boot", "SQL", "Blockchain Research"],
+      description: "Full-stack pollution surveillance system for live recycling data capture and near real-time reporting.",
+      technologies: ["React (Vite)", "Spring Boot", "SQL"],
       highlights: [
         "Improved data collection efficiency by 30%",
-        "Dynamic graphs and real-time visualization",
-        "Monthly report synchronization",
-        "Researched blockchain integration for data security"
+        "Optimized SQL queries and pipelines, cutting reporting lag from days to hours",
+        "Interactive visualization dashboard for real-time monitoring",
+        "Translated field operators' workflow needs into clearer data structures"
       ],
       status: "Completed (Internship)",
       github: "#",
