@@ -9,7 +9,7 @@ export default function Contact() {
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Thank you for your message! Since this is a demo form, please reach out directly via email at zliu1@colgate.edu for the fastest response.');
+    alert('Thank you for your message! Since this is a demo form, please reach out directly via email at ziyuliu2026@hotmail.com for the fastest response.');
   };
 
   return (
@@ -70,8 +70,8 @@ export default function Contact() {
                 </div>
                 <div className="contact-details">
                   <p className="label">Email</p>
-                  <Link href="mailto:zliu1@colgate.edu" className="value">
-                    zliu1@colgate.edu
+                  <Link href="mailto:ziyuliu2026@hotmail.com" className="value">
+                    ziyuliu2026@hotmail.com
                   </Link>
                 </div>
               </div>
@@ -285,7 +285,7 @@ export default function Contact() {
                     <p className="note-title">Note about this form:</p>
                     <p className="note-text">
                       This contact form is for display purposes. For the fastest response, please reach out directly via 
-                      email at <Link href="mailto:zliu1@colgate.edu">zliu1@colgate.edu</Link> 
+                      email at <Link href="mailto:ziyuliu2026@hotmail.com">ziyuliu2026@hotmail.com</Link> 
                       or connect with me on LinkedIn!
                     </p>
                   </div>
@@ -357,7 +357,7 @@ export default function Contact() {
             </div>
             <div className="cta-buttons">
               <Link 
-                href="mailto:zliu1@colgate.edu" 
+                href="mailto:ziyuliu2026@hotmail.com" 
                 className="cta-button primary"
               >
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">

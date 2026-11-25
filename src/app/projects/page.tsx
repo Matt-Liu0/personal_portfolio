@@ -15,6 +15,7 @@ export default function Projects() {
       technologies: ["Next.js", "NestJS", "PostgreSQL", "Supabase", "Google Calendar API", "OpenAI API"],
       highlights: [
         "Integrated Google Calendar APIs to centralize 200+ events per semester",
+        "Java backend scheduling modules in early prototypes, built on strong OOP practices",
         "Role-based authentication with Supabase, reducing posting errors by 40%",
         "AI chatbot for natural-language event questions, cutting time-to-event-discovery by 35%"
       ],
@@ -39,16 +40,16 @@ export default function Projects() {
     },
     {
       title: "CryptoEd",
-      period: "Aug 2025 – Present",
-      description: "An online platform promoting cryptocurrency and DeFi education for undergraduates across multiple U.S. universities.",
+      period: "Jul 2025 – Present",
+      description: "A DeFi education platform for undergraduates, piloted with 50+ students across three U.S. universities to foster peer-driven blockchain learning.",
       technologies: ["React", "Next.js", "Firebase"],
       highlights: [
-        "Self-initiated project with peers from multiple universities",
-        "Course-style learning modules with structured content",
-        "Interactive discussion forums (Reddit-style)",
-        "User authentication and community features"
+        "Piloted with 50+ students across three U.S. universities",
+        "Discussion forums, authentication, and course-style content modules",
+        "Firebase authentication and database schema for secure data management",
+        "Smooth real-time performance under concurrent users"
       ],
-      status: "In Development",
+      status: "Piloting",
       github: "#",
       demo: "#"
     },
@@ -70,7 +71,7 @@ export default function Projects() {
   ];
 
   const getStatusClass = (status: string) => {
-    if (status === 'Live & Maintained') return 'status-badge status-live';
+    if (status === 'Live & Maintained' || status === 'Piloting') return 'status-badge status-live';
     if (status === 'In Development') return 'status-badge status-development';
     return 'status-badge status-completed';
   };

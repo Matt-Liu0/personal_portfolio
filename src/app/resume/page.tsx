@@ -88,7 +88,7 @@ export default function Resume() {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                zliu1@colgate.edu
+                ziyuliu2026@hotmail.com
               </span>
               <span className="contact-item">
                 <svg fill="currentColor" viewBox="0 0 20 20">
@@ -155,6 +155,8 @@ export default function Resume() {
                     <h3>Colgate University</h3>
                     <p className="degree">Bachelor of Arts, Double Major: Computer Science + Mathematics</p>
                     <p className="location">Hamilton, New York</p>
+                    <p className="location">Dean&apos;s Award with Distinction for Academic Excellence</p>
+                    <p className="location">GRE: Verbal 164, Quantitative 170, Writing 3.5</p>
                   </div>
                   <div className="graduation-info">
                     <p className="date">May 2027</p>
@@ -249,6 +251,7 @@ export default function Resume() {
                     </div>
                     <div className="other-skills">
                       <span className="other-skill">SQL</span>
+                      <span className="other-skill">JavaScript</span>
                       <span className="other-skill">HTML/CSS</span>
                       <span className="other-skill">MATLAB</span>
                     </div>
@@ -296,6 +299,23 @@ export default function Resume() {
                       <div className="framework-type langchain">LLM</div>
                     </div>
                   </div>
+                  <div className="other-skills">
+                    <span className="other-skill">Vue</span>
+                    <span className="other-skill">Node.js</span>
+                    <span className="other-skill">GraphQL</span>
+                    <span className="other-skill">Jest</span>
+                    <span className="other-skill">Scikit-learn</span>
+                    <span className="other-skill">OpenAI GPT API</span>
+                    <span className="other-skill">Claude Code</span>
+                    <span className="other-skill">Cursor</span>
+                    <span className="other-skill">Git/GitHub</span>
+                    <span className="other-skill">AWS</span>
+                    <span className="other-skill">Azure</span>
+                    <span className="other-skill">Datadog</span>
+                    <span className="other-skill">TeamCity</span>
+                    <span className="other-skill">Tableau</span>
+                    <span className="other-skill">Figma</span>
+                  </div>
                 </div>
               </div>
             </section>
@@ -316,7 +336,7 @@ export default function Resume() {
                   <div className="experience-header">
                     <div>
                       <h3 className="experience-title">Research Assistant – GKC-CI Policy Annotation</h3>
-                      <p className="experience-organization">Computer Science | Colgate University & University of Iowa</p>
+                      <p className="experience-organization">Computer Science | Colgate University · Supervisor: Dr. Noah Apthorpe</p>
                     </div>
                     <span className="status-badge status-completed">Completed</span>
                   </div>
@@ -324,7 +344,7 @@ export default function Resume() {
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
-                      Built LLM-based models with fine-tuning and prompt engineering to analyze privacy policy parameters, converting expert annotations into reproducible and scalable pipelines for policy evaluation
+                      Developed LLM-based models with fine-tuning and prompt engineering to analyze privacy policy parameters, converting expert annotations into reproducible and scalable pipelines for policy evaluation
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
@@ -332,7 +352,7 @@ export default function Resume() {
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
-                      Experimented with LangChain-based prompt chaining to enhance reproducibility and traceability in annotation workflows
+                      Experimented with LangChain-based prompt chaining to strengthen reproducibility and traceability in annotation workflows
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
@@ -344,8 +364,8 @@ export default function Resume() {
                 <div className="experience-card">
                   <div className="experience-header">
                     <div>
-                      <h3 className="experience-title">Research Assistant – Homogenization Theory</h3>
-                      <p className="experience-organization">Mathematics | Colgate University</p>
+                      <h3 className="experience-title">Research Assistant – Computational Modeling of Wave Equation</h3>
+                      <p className="experience-organization">Mathematics | Colgate University · Supervisor: Dr. Silvia Jiménez Bolaños</p>
                     </div>
                     <span className="status-badge status-completed">Completed</span>
                   </div>
@@ -353,11 +373,11 @@ export default function Resume() {
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
-                      Investigated homogenization theory on wave equations under certain microstructure and boundary conditions
+                      Applied numerical algorithms and two-scale convergence to simulate wave equations under heterogeneous microstructures, improving accuracy of homogenized models in multiscale environments
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet research"></span>
-                      Conducted asymptotic expansion techniques and two-scale convergence validation to rigorously derive the homogenized equation of the wave equation system, and presented research outcomes in campus poster sessions and research conferences
+                      Implemented simulations in MATLAB and Python, validating theoretical predictions against benchmark problems and achieving consistent error reduction across cases
                     </li>
                   </ul>
                 </div>
@@ -392,11 +412,11 @@ export default function Resume() {
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Designed and delivered an end-to-end guided search workflow (React, TypeScript) for Zocdoc&apos;s provider-branded directory, increasing booking conversion by 10% and laying the groundwork for practice-level scheduling rule integration
+                      Designed and delivered an end-to-end guided search workflow (React, TypeScript, Claude Code) for Zocdoc&apos;s provider-branded directory, increasing booking conversion by 10% and laying the groundwork for practice-level scheduling rule integration
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Built GraphQL/C# backend endpoints for search filtering categories, improving extensibility for scheduling-rule logic
+                      Built GraphQL/C# backend endpoints for search filtering categories, improving search precision and extensibility for future scheduling-rule logic
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
@@ -409,22 +429,6 @@ export default function Resume() {
                   </ul>
                 </div>
 
-                <div className="experience-card">
-                  <div className="experience-header">
-                    <div>
-                      <h3 className="experience-title">Teaching Assistant</h3>
-                      <p className="experience-organization">Computer Science Department | Colgate University</p>
-                    </div>
-                    <span className="status-badge status-current">Current</span>
-                  </div>
-                  <p className="experience-date">Sept 2024 – Present</p>
-                  <ul className="experience-highlights">
-                    <li className="highlight-item">
-                      <span className="highlight-bullet work"></span>
-                      Mentored and supported 40+ students in introductory CS courses by leading labs, debugging Python/Java/C assignments, and fostering collaborative problem-solving skills
-                    </li>
-                  </ul>
-                </div>
 
                 <div className="experience-card">
                   <div className="experience-header">
@@ -467,7 +471,7 @@ export default function Resume() {
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Built a dynamic visualization dashboard with interactive charts, providing environmental teams with real-time monitoring tools and improving monthly reporting accuracy
+                      Constructed a dynamic visualization dashboard with interactive charts, providing environmental teams with real-time monitoring tools and enhancing monthly reporting accuracy
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
@@ -479,16 +483,16 @@ export default function Resume() {
                 <div className="experience-card">
                   <div className="experience-header">
                     <div>
-                      <h3 className="experience-title">Math Center Tutor</h3>
-                      <p className="experience-organization">Math Center | Colgate University</p>
+                      <h3 className="experience-title">Math Center Teaching Assistant</h3>
+                      <p className="experience-organization">Department of Mathematics | Colgate University</p>
                     </div>
                     <span className="status-badge status-academic">Academic Year</span>
                   </div>
-                  <p className="experience-date">Aug 2024 – May 2025</p>
+                  <p className="experience-date">Sep 2024 – May 2025</p>
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet work"></span>
-                      Guided students across various Calculus levels by fostering critical thinking and a problem-solving mindset, enhancing their understanding and confidence in mathematics
+                      Mentored and supported 40+ students in introductory calculus and linear algebra courses by explaining mathematical concepts, guiding problem-solving, and reinforcing analytical reasoning skills to strengthen students&apos; mathematical proficiency and confidence
                     </li>
                   </ul>
                 </div>
@@ -548,11 +552,11 @@ export default function Resume() {
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
-                      Built a full-stack campus event discovery platform with Next.js, NestJS, PostgreSQL, and Supabase, integrating Google Calendar APIs to centralize 200+ events per semester
+                      Architected a full-stack campus event discovery platform with Next.js, NestJS, PostgreSQL, and Supabase, integrating Google Calendar APIs to centralize 200+ events per semester and improve visibility for students
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
-                      Implemented role-based authentication with Supabase to enable secure real-time event management, reducing posting errors by 40%
+                      Engineered backend scheduling modules in Java during early prototypes, reinforcing strong OOP practices, and implemented role-based authentication with Supabase to enable secure real-time event management, reducing posting errors by 40%
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
@@ -574,21 +578,17 @@ export default function Resume() {
                       <h3 className="experience-title">CryptoEd</h3>
                       <p className="experience-organization">Software Engineering | International Student Initiative</p>
                     </div>
-                    <span className="status-badge status-development">In Development</span>
+                    <span className="status-badge status-live">Piloting</span>
                   </div>
-                  <p className="experience-date">Aug 2025 – Present</p>
+                  <p className="experience-date">Jul 2025 – Present</p>
                   <ul className="experience-highlights">
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
-                      Launch a self-initiated online platform with peers from multiple U.S. universities to promote cryptocurrency and decentralized finance (DeFi) education for undergraduates
+                      Launched a DeFi education platform with React and Next.js, featuring discussion forums, authentication, and content modules, piloted with 50+ students across three U.S. universities to foster peer-driven blockchain learning
                     </li>
                     <li className="highlight-item">
                       <span className="highlight-bullet projects"></span>
-                      Lead website development, implementing course-style learning modules, interactive discussion forums (Reddit-style), and user authentication to support structured learning and peer collaboration
-                    </li>
-                    <li className="highlight-item">
-                      <span className="highlight-bullet projects"></span>
-                      Build technical foundation with React, Next.js, Firebase, ensuring smooth integration of learning content with community interaction
+                      Engineered Firebase authentication and database schema to secure data management and ensure smooth real-time platform performance under concurrent users
                     </li>
                   </ul>
                   <div className="project-tech-tags">

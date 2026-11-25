@@ -12,6 +12,7 @@ export default function Home() {
     { name: 'JavaScript', type: 'language' },
     { name: 'C/C++', type: 'language' },
     { name: 'SQL', type: 'language' },
+    { name: 'MATLAB', type: 'language' },
     { name: 'React', type: 'framework' },
     { name: 'Next.js', type: 'framework' },
     { name: 'Node.js', type: 'framework' },
@@ -19,10 +20,19 @@ export default function Home() {
     { name: 'Django', type: 'framework' },
     { name: 'Vue', type: 'framework' },
     { name: 'PyTorch', type: 'framework' },
+    { name: 'GraphQL', type: 'framework' },
+    { name: 'Jest', type: 'framework' },
     { name: 'LangChain', type: 'framework' },
+    { name: 'Scikit-learn', type: 'framework' },
+    { name: 'OpenAI GPT API', type: 'framework' },
     { name: 'PostgreSQL', type: 'database' },
     { name: 'Supabase', type: 'database' },
     { name: 'AWS', type: 'tool' },
+    { name: 'Azure', type: 'tool' },
+    { name: 'Claude Code', type: 'tool' },
+    { name: 'Datadog', type: 'tool' },
+    { name: 'Figma', type: 'tool' },
+    { name: 'Tableau', type: 'tool' },
     { name: 'Git/GitHub', type: 'tool' }
   ];
 
@@ -103,7 +113,7 @@ export default function Home() {
               <p className="about-text">
                 Most recently, I was a Software Engineering Intern at Zocdoc, where I built a guided search workflow that increased booking conversion by 10%.
                 I also research LLM-based privacy policy annotation and maintain the Colgate Event Calendar platform.
-                When I&apos;m not coding, I&apos;m a CS Teaching Assistant and a Writing Center Consultant.
+                When I&apos;m not coding, I&apos;m a Writing Center Consultant, and I previously served as a Math Center Teaching Assistant.
               </p>
             </div>
           </div>
